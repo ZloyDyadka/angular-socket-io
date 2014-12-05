@@ -1,8 +1,5 @@
 /*
- * @license
  * angular-socket-io v0.4.1
- * (c) 2014 Brian Ford http://briantford.com
- * License: MIT
  */
 
 (function() {
@@ -48,8 +45,8 @@
                     };
 
                     wrappedSocket.emit = function(eventName, data, callback) {
-                        var lastIndex = arguments.length - 1,
-                            callback = arguments[lastIndex];
+                        var lastIndex = arguments.length - 1;
+                        callback = arguments[lastIndex];
 
 
                         if (_.isFunction(callback)) {
