@@ -1,5 +1,5 @@
 /*
- * angular-socket-io v0.4.1
+ * angular-socket-io v0.4.2
  */
 
 (function() {
