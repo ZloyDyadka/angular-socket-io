@@ -3,6 +3,7 @@
   "version": "1.0",
   "main": "socket.js",
   "dependencies": {
-    "angular": "~1"
+    "angular": "~1",
+    "socket.io-client": "~1.3",
   }
 }
